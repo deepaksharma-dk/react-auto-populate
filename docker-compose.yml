@@ -1,0 +1,11 @@
+version: '3.7'
+services:
+  autosuggest:
+    container_name: sautosuggest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - '3001:3000'
+    environment:
+      - CHOKIDAR_USEPOLLING=true
