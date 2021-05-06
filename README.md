@@ -4,9 +4,9 @@ I have created the frontend in React. I have used the github and docker to run t
 		git clone git@github.com:deepaksharma-dk/react-auto-populate.git
 		
 	2) go inside the repository e.g. 
-		cd d react-auto-populate
+		cd react-auto-populate
 	
 	3) run the below composer command to start the application:
 		docker-compose up --build 
 	
-	4) Congratulations. You can access the website on http://localhost:3000/
+	4) Congratulations. You can access the website on http://localhost:3001/
